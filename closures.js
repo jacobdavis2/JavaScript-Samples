@@ -62,4 +62,5 @@ console.log(addEverMore(5)); // Output: 6
 //  in essence, preventing us from using the previous method to access those
 //  variables. Now we have to store the function reference somewhere.
 
-// Hope this helps!
+// Hope this helps! Here's some helpful links:
+// https://hackernoon.com/how-to-use-javascript-closures-with-confidence-85cd1f841a6b

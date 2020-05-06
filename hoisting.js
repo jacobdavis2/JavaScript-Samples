@@ -1,3 +1,7 @@
+// Hoisting example
+// by Jacob Davis
+// Revature 2020
+
 // In JavaScript, variables declared with var are hoisted.
 //  This means they are treated as if they were declared at either
 //  the top of the global scope or the function scope, if in a function,
@@ -31,7 +35,7 @@ var globalVariable = "Global variable!";
 
 // In other words, hoisting still happens at the function scope, but not past it.
 //  In addition to that, variables declared with var inside a for block, for instance,
-//  are hoisted to the top of the function.
+//  or an if block, are hoisted to the top of the function.
 
 // Hope this helps! Useful links:
 // Freecodecamp tutorial: https://www.freecodecamp.org/news/what-is-variable-hoisting-differentiating-between-var-let-and-const-in-es6-f1a70bb43d/
